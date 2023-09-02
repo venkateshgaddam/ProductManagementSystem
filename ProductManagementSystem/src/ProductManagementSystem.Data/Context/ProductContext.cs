@@ -1,0 +1,4 @@
+﻿
+namespace InventoryManagement.Data.Context
+{
+}

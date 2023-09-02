@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Mock Lambda Test Tool": {
+      "commandName": "Executable",
+      "commandLineArgs": "--port 5050",
+      "workingDirectory": ".\\bin\\$(Configuration)\\net6.0",
+      "executablePath": "%USERPROFILE%\\.dotnet\\tools\\dotnet-lambda-test-tool-6.0.exe",
+      "environmentVariables": {
+        "Connectionstring": "Data Source=productmanagement.cq49olauofmh.us-east-1.rds.amazonaws.com,1433;Database=Inventory;Integrated Security=false;User ID=admin;Password=2wsxZAQ!;Connection Timeout=30;TrustServerCertificate=True;"
+      }
+    }
+  }
+}
